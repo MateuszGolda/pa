@@ -1,4 +1,4 @@
-package com.codecool.pa.Vehicle.AbstrackVehicles;
+package com.codecool.pa.vehicle.abstractVehicles;
 
 public abstract class WaterVehicle extends Vehicle {
     protected WaterVehicle() {
