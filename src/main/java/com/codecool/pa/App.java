@@ -15,8 +15,7 @@ public class App {
         vehicles.add(new MotorBoat());
 
         for (Vehicle vehicle : vehicles) {
-            System.out.println(vehicle.makeSound());
-            System.out.println(vehicle.move());
+            vehicle.move();
         }
     }
 }
