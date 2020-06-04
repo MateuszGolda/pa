@@ -14,8 +14,6 @@ public class App {
         vehicles.add(new Helicopter());
         vehicles.add(new MotorBoat());
 
-        for (Vehicle vehicle : vehicles) {
-            vehicle.move();
-        }
+        vehicles.forEach(Vehicle::move);
     }
 }
